@@ -21,5 +21,6 @@ reserva.CadastrarSuite(suite);
 reserva.CadastrarHospedes(hospedes);
 
 // Exibe a quantidade de hóspedes e o valor da diária
+Console.WriteLine($"Tipo de suíte: {suite.TipoSuite}");
 Console.WriteLine($"Hóspedes: {reserva.ObterQuantidadeHospedes()}");
-Console.WriteLine($"Valor diária: {reserva.CalcularValorDiaria()}");
+Console.WriteLine($"Valor diária: R${reserva.CalcularValorDiaria()}");
